@@ -8,7 +8,6 @@ public class Item {
     private String tasks; // Заголовок
     private String comments; // Підзаголdаок
 
-
     Item(String t, String c) {
 
         this.tasks = t;
