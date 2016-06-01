@@ -17,7 +17,6 @@ public class MyAdapter extends BaseAdapter {
     private ArrayList<Item> listData;
     private LayoutInflater layoutInflater;
 
-
     public  MyAdapter(Context context, ArrayList<Item> listData){
         layoutInflater = LayoutInflater.from(context);
         this.listData = listData;
